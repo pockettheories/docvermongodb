@@ -1,0 +1,4 @@
+source :rubygems
+gem 'mongo'
+gem 'cli-ui'
+gem "faker", "~> 3.2"

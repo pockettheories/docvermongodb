@@ -1,0 +1,23 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bson (4.15.0)
+    cli-ui (2.2.3)
+    concurrent-ruby (1.2.2)
+    faker (3.2.0)
+      i18n (>= 1.8.11, < 2)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    mongo (2.19.0)
+      bson (>= 4.14.1, < 5.0.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  cli-ui
+  faker (~> 3.2)
+  mongo
+
+BUNDLED WITH
+   2.4.6
