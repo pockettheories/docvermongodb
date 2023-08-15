@@ -44,7 +44,7 @@ loop do
       {'$set': {address: new_address}, '$inc': {revision: 1}},
       {upsert: true, return_document: :before}
     )
-    doc = JSON.parse(doc.to_extended_json, :symbolize_names => true)
+    # doc = JSON.parse(doc.to_extended_json, :symbolize_names => true)
     puts "
   doc = db.#{collname}.findOneAndUpdate(
     {_id: #{id_to_update}},
